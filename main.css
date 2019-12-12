@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid black;
+    height: 100px;
+}
+
+.block1 {
+    height: 800px;
+    background: url('./--photo.png');
+}
+
+.block1 .header{
+    height: 150px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.block1 .content{
+    height: 650px;
+}
